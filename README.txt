@@ -1,10 +1,15 @@
-TACLAR COURSE V34.8 FINAL
+TACLAR COURSE V34.9 FINAL
 
-Base : V34.7
+Base : V34.8
 
-Correction V34.8 :
-- Connexion chauffeur = automatiquement disponible.
-- Affichage En service.
-- Bouton unique : Terminer ma journée.
-- Confirmation avant fin de journée.
-- Après confirmation : chauffeur passe Indisponible dans Firebase.
+Corrections :
+- Chauffeur : liste déroulante remplacée par cartes cliquables.
+- Chauffeur connecté = force immédiatement Disponible dans Firebase.
+- Dispatcher : bouton Réinitialiser démo.
+- Réinitialiser démo supprime les courses et met tous les chauffeurs en Indisponible.
+
+Avant présentation :
+1. Ouvrir dispatcher.html.
+2. Cliquer Réinitialiser démo.
+3. Vérifier : aucune course, 4 chauffeurs indisponibles.
+4. Ouvrir chauffeur.html pour connecter les chauffeurs nécessaires.
