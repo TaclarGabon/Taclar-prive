@@ -1,3 +1,8 @@
-TACLAR COURSE V34.6 FINAL
+TACLAR COURSE V34.7 FINAL
 
-Dashboard et assignation chauffeur corrigés visuellement.
+Correction métier : vrais statuts chauffeurs.
+- Disponible = chauffeur connecté + shift démarré + aucune course active.
+- Occupé = chauffeur en course active.
+- Indisponible = chauffeur non connecté / shift non démarré.
+- Côté Chauffeur : boutons Démarrer mon shift / Terminer mon shift.
+- Dispatcher : compteurs calculés depuis Firebase drivers.
