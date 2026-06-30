@@ -1,4 +1,4 @@
-TACLAR FIREBASE V34.1 - PORTAIL PAR ROLES FINAL
+TACLAR FIREBASE V34.2 - PORTAIL PAR ROLES FINAL
 
 Correction principale :
 - Firebase ne se connectait pas à cause d'une erreur dans la clé apiKey.
@@ -29,3 +29,6 @@ Installation Firebase Hosting :
 Important :
 Cette version reste une séparation visuelle MVP par rôles.
 Pour une vraie sécurité, il faudra ajouter Firebase Authentication + règles Firestore.
+
+
+V34.2 : correction dispatcher - un chauffeur déjà occupé sur une course active ne peut plus être assigné à une autre course.
