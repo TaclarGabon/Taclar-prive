@@ -1,15 +1,8 @@
-TACLAR COURSE V34.9 FINAL
+TACLAR COURSE V34.10 FINAL
 
-Base : V34.8
+Base : V34.9
 
-Corrections :
-- Chauffeur : liste déroulante remplacée par cartes cliquables.
-- Chauffeur connecté = force immédiatement Disponible dans Firebase.
-- Dispatcher : bouton Réinitialiser démo.
-- Réinitialiser démo supprime les courses et met tous les chauffeurs en Indisponible.
-
-Avant présentation :
-1. Ouvrir dispatcher.html.
-2. Cliquer Réinitialiser démo.
-3. Vérifier : aucune course, 4 chauffeurs indisponibles.
-4. Ouvrir chauffeur.html pour connecter les chauffeurs nécessaires.
+Correction :
+- Côté Chauffeur, si le chauffeur est connecté et sans course active, son tableau affiche Disponible.
+- Le statut Indisponible ne reste plus affiché après connexion.
+- La logique Dispatcher/Firebase reste inchangée.
