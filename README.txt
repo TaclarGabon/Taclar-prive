@@ -1,8 +1,8 @@
-TACLAR COURSE V34.3 FINAL
+TACLAR COURSE V34.5 FINAL
 
-Corrections V34.3 :
-- Assignation chauffeur avec codes couleurs : vert disponible, rouge occupé, gris indisponible / shift pas commencé.
-- Blocage si le dispatcher tente d’assigner un chauffeur occupé ou indisponible.
-- Bouton Fermer le reçu dans Admin / Reçu final client.
-
-Base : V34.2.
+Correction V34.5 :
+- Fenêtre Assigner chauffeur réellement refaite.
+- Compteurs visibles avec points de couleur.
+- Cartes chauffeurs : vert disponible, rouge occupé, gris indisponible.
+- Tri automatique.
+- Bouton confirmer bloqué si aucun chauffeur disponible n'est sélectionné.
